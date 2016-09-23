@@ -4,7 +4,7 @@
     bindings: {
       name: '@'
     },
-    templateUrl: './doggo.html',
+    templateUrl: './components/doggo/doggo.html',
     controller: 'DoggoCtrl',
     controllerAs: 'doggo'
   });
