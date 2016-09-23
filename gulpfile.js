@@ -10,3 +10,9 @@ gulp.task('minify-js', function() {
   .pipe(uglify())
   .pipe(gulp.dest('./build'));
 });
+
+gulp.task('watch', function() {
+  gulp.watch(['./pages/**/*.js', './components/**/.js', './app.js'],
+    ['minify-js']
+    )
+});
