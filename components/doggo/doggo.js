@@ -5,7 +5,7 @@
       name: '@'
     },
     templateUrl: './components/doggo/doggo.html',
-    controller: 'DoggoCtrl',
+    controller: DoggoCtrl,
     controllerAs: 'doggo'
   });
 
