@@ -5,6 +5,6 @@
   function HomeCtrl() {
     var vm = this;
 
-    vm.name = 'Zach';
+    vm.name = 'Mr. Doggo';
   }
 })()
